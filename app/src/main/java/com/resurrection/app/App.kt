@@ -5,7 +5,12 @@ import dagger.hilt.android.HiltAndroidApp
 
 @HiltAndroidApp
 class App :BaseApplication() {
+
     override fun init() {
+
+    }
+
+    override fun crashListener(thread: Thread, throwable: Throwable) {
 
     }
 }
